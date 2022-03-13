@@ -13,9 +13,7 @@ padding: 0;
     border-bottom: 3px solid rgb(255, 188, 18); 
 }
 
-.main__index h1{
-    transition: all 1.2s;
-}
+
 .main__index h1:hover{
     transform: translate(20px,20px);
 }
@@ -37,11 +35,13 @@ padding: 0;
 .main__index h1 {
     margin-bottom: 1.5rem;
     font-size: 100px; 
+    transition: all 1.2s;
      
 }
 .main__index p {
     line-height: 1.0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 .header__icono {
     width: 247px;
@@ -58,9 +58,14 @@ padding: 0;
     grid-area: aside;
     line-height: 20px;
     display: flex;
-    align-items:center;
+    align-items:center; 
+}
 
-    
+.aside ul{
+    transition: all 0.5s;
+}
+.aside:hover{
+    transform:scale(1.5) ;
 }
 .aside__youtube{
     grid-area: aside;
