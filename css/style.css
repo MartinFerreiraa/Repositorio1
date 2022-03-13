@@ -113,7 +113,7 @@ h2{
     "main main aside" 
     "footer footer footer";
 }
-@media (max-width: 1000px){
+@media (max-width: 2000px){
 .conteiner__grid{
    display: grid;
     grid-template-areas: 
