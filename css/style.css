@@ -1,8 +1,97 @@
 *{
-margin: 0;
-padding: 0;
+margin: 0px;
+padding: 0px;
 }
-.header{   
+nav {
+    border-bottom:  3px solid rgb(228, 173, 21);
+}
+.div__modificado{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: var(--bs-gutter-x,4px);
+    padding-left: var(--bs-gutter-x, 72rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+nav img{
+margin-left: 20px;
+    width: 5%;
+}
+.div__main{
+    padding: 50px 20px 0px 0px ;
+    display: flex;
+}
+main div div div h1{
+    text-align: center;
+    padding-left: 10px;
+    
+       
+}
+main div div div  p{
+    text-align: left;
+    line-height: 1.2;   
+}
+main{
+    border-bottom:  3px solid rgb(228, 173, 21);
+}
+.footer{
+   
+    
+    padding: 1rem;  
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+aside{  
+    line-height: 20px;
+    display: flex;
+    align-items:center; 
+}
+.conteiner2{
+    display: flex;
+    justify-content: center;
+}
+.row3{
+    padding: 132px;
+}
+.row5{
+    padding: 132px;
+}
+.row4{
+    padding: 15px 0px 15px 0px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    font-family:sans-serif;
+}
+.main__reserva__foto{
+    padding: 10px 0pc 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.header{   
     position: sticky;
     top: 0;     
     display: flex;
@@ -100,7 +189,7 @@ h2{
 }
 
 
-    /*GRID*/
+    /*GRID
 .conteiner__grid{
     grid-column-gap: 10px;
    grid-row-gap: 15px;
