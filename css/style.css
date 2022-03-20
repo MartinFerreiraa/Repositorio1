@@ -6,19 +6,7 @@ nav {
     border-bottom:  3px solid rgb(228, 173, 21);
 }
 .div__modificado{
-    display: flex;
-    flex-wrap: inherit;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding-right: var(--bs-gutter-x,4px);
-    padding-left: var(--bs-gutter-x, 72rem);
-    margin-right: auto;
-    margin-left: auto;
-}
-nav img{
-margin-left: 20px;
-    width: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
 }
 .div__main{
     padding: 50px 20px 0px 0px ;
@@ -32,33 +20,32 @@ main div div div  p{
     line-height: 1.2;   
 }
 main{
-    border-bottom:  3px solid rgb(228, 173, 21);
-}
-.footer{
-   
-    
-    padding: 1rem;  
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
+    border-bottom:  3px solid rgb(228, 173, 21);}
 aside{  
     line-height: 20px;
     display: flex;
     align-items:center; 
 }
 .conteiner2{
-    display: flex;
+    display:flex;
     justify-content: center;
 }
 .row3{
-    padding: 132px;
+    align-items: center;
+    padding-top: 30px;
+    width: auto;
+  height: auto; 
+    
 }
 .row5{
-    padding: 132px;
+padding-top: 30px;
+ width: auto;
+ height: auto;  
+   
 }
 .row4{
+    width: relative;
+   height: relative; 
     padding: 15px 0px 15px 0px;
 }
 h2{
@@ -70,6 +57,71 @@ h5{
 .main__reserva__foto{
     padding: 10px 0pc 10px 10px;
 }
+.carousel__item2{
+    display: none;
+} 
+.titulo:hover{
+    transform: skew(25deg);
+}
+.animacion:hover{
+animation: Letra 4s;
+}
+@keyframes Letra{
+    0%{ font-style: italic; text-decoration: double;}
+    45%{ font-family: Arial, Helvetica, sans-serif; background-color:rgb(216, 41, 49) ;    }
+    75%{ font-variant: initial; background-color: blue;}
+    }
+@media screen and (max-width:991.98px){
+.div__main{
+display:list-item;
+align-items: center;
+width: auto;
+height: auto;}
+}
+.row3 .row5{
+align-items: center;
+display:list-item;
+}
+.row4{
+display: flex;
+width: auto; 
+height: auto;
+}
+
+@media screen and (max-width:560px){
+.row4{
+display: none;
+}
+.row3 .row5{
+padding: none;
+align-items: center;
+display:list-item;
+}
+.row2{
+display: none;
+}
+.lorem::first-line{
+    color: blueviolet;
+}
+h1{
+    color: blue; 
+ }
+}
+footer {
+display: flex;
+align-items: center;
+}
+@media screen and (max-width:318px){
+footer{
+display: flex;
+align-items: center;  
+}
+.icono{
+    flex-direction: column;
+}
+
+}
+
 
 
 

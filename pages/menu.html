@@ -11,142 +11,137 @@
     <title>Menu</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img class="header__icono" src="../pic/icono R.jpg" alt=""> 
-        <div class="container-fluid div__modificado">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+    <div class="container-fluid div__modificado">
            
-          <a class="navbar-brand" href="../index.html">Bienvenido</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/menu.html">Menú</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link "href="../pages/ubicacion.html">Ubicacion</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link "href="../pages/reserva.html">Reserva</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link "href="../pages/eventos.html">Eventos</a>
-              </li>
+      <a class="navbar-brand" href="../index.html">Bienvenido</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/menu.html">Menú</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link "href="../pages/ubicacion.html">Ubicacion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link "href="../pages/reserva.html">Reserva</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link "href="../pages/eventos.html">Eventos</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="conteiner conteiner2">
+            
+      <div class= "row  ">
+        <div class="row3 col-lg-3 ">          
+          <ul class="animacion">
+            <h2>Tragos</h2>
+            <li>De autor</li>
+            <ul>
+              <li>Apero Passion</li>
+              <li>Perla Negra</li>
+              <li>Tropical</li>
+            </ul> 
+            <li>Clasicos</li>
+            <ul>
+              <li>Aperol</li>
+              <li>Chandon</li>
+              <li>Mojito</li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            <li>Sin alcohol</li>
+            <ul>
+              <li>Speed</li>  
+              <li>Coca Cola</li>
+              <li>Agua 600cc</li>
+            </ul>
+          </ul>                     
+        </div> 
+        <div class="row4">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active carousel__item2 ">
+                <img src="../pic/1024x720.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item carousel__item2">
+                <img src="../pic/332346324 1024x720.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item carousel__item2">
+                <img src="../pic/istockphoto-1096117436-1024x1024.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
-    </nav>
-    <main>
-        <div class="conteiner2">
-            
-            <div class= "row3 col-lg-3 ">
-                    
-                <ul>
-                    <h2>Tragos</h2>
-                    <li>De autor</li>
-                    <ul>
-                        <li>Apero Passion</li>
-                        <li>Perla Negra</li>
-                        <li>Tropical</li>
-                    </ul> 
-                    <li>Clasicos</li>
-                    <ul>
-                        <li>Aperol</li>
-                        <li>Chandon</li>
-                        <li>Mojito</li>
-                    </ul>
-                    <li>Sin alcohol</li>
-                    <ul>
-                        <li>Speed</li>  
-                        <li>Coca Cola</li>
-                        <li>Agua 600cc</li>
-                    </ul>
-                </ul>                     
-                 
-            </div>
-            <div id="carouselExampleIndicators" class="carousel slide row4 col-lg-6  " data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="../pic/1024x720.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../pic/332346324 1024x720.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../pic/istockphoto-1096117436-1024x1024.jpg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-            <div class="row5 col-lg-3 ">
-                               
-                <ul> 
-                    <h2>Comida</h2>       
-                    <li>Milanesas</li>
-                    <ul>
-                        <li>Napolitana</li>
-                        <li>Clasica</li>
-                        <li>Con fritas</li>
-                    </ul>
-                    <li>Pizzas</li>
-                    <ul>
-                        <li>Simple</li>
-                        <li>Con muzzarella</li>
-                        <li>Gusto a eleccion</li>
-                    </ul>
-                    <li>Chivitos</li>
-                    <ul>
-                        <li>Al plato para uno</li>
-                        <li>Al plato para dos</li>
-                        <li>Al pan para uno</li>
-                        <li>al pan para dos</li>
-                    </ul>
-                    <li>Pastas</li>
-                    <ul>
-                        <li>Sorrentinos</li>
-                        <li>Spaghetti</li>
-                        <li>Ravioles</li>
-                    </ul>
-                </ul>   
+        <div class="row5 col-lg-3  ">
+                                
+          <ul class="animacion"> 
+            <h2>Comida</h2>       
+            <li>Milanesas</li>
+            <ul>
+              <li>Napolitana</li>
+              <li>Clasica</li>
+              <li>Con fritas</li>
+            </ul>
+            <li>Pizzas</li>
+            <ul>
+              <li>Simple</li>
+              <li>Con muzzarella</li>
+              <li>Gusto a eleccion</li>
+            </ul>
+            <li>Chivitos</li>
+            <ul>
+              <li>Al plato para uno</li>
+              <li>Al plato para dos</li>
+              <li>Al pan para uno</li>
+              <li>al pan para dos</li>
+            </ul>
+            <li>Pastas</li>
+            <ul>
+              <li>Sorrentinos</li>
+              <li>Spaghetti</li>
+              <li>Ravioles</li>
+            </ul>
+          </ul>   
+        </div>       
                 
-                
-            </div>
-        </div>
-
-    </main>
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
-        <div class="col-md-4 d-flex align-items-center">
-          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-          </a>
-          <span class="text-muted">© 2022 Company, Inc</span>
-        </div>    
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li i class="fa-brands fa-instagram"><a class="text-muted" href="#"><svg class="bi" width="50" height="50"><use xlink:href="#twitter"></use></svg></a></li>
-          <li i class="fa-brands fa-facebook-f"><a class="text-muted" href="#"><svg class="bi" width="50" height="50"><use xlink:href="#instagram"></use></svg></a></li>
-
-        </ul>
-      </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+      </div>
+    </div>
+  </main>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="text-muted">© 2022 Company, Inc</span>
+    </div>    
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li i class="fa-brands fa-instagram"><a class="text-muted" href="https://www.instagram.com/?hl=es-la"><svg class="bi" width="50" height="50"><use xlink:href="#twitter"></use></svg></a></li>
+      <li i class="fa-brands fa-facebook-f"><a class="text-muted" href="https://es-la.facebook.com/"><svg class="bi" width="50" height="50"><use xlink:href="#instagram"></use></svg></a></li>
+    </ul>
+  </footer>
+    
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
 </body>
 </html>
