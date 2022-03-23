@@ -1,0 +1,24 @@
+@import"../base/variables.scss";
+main{
+    font-size: $font-size;
+}
+.div__main{
+
+    display: flex;
+    padding: 10px;
+}
+.div__texto{
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.row2{
+    width: auto;
+    height: auto;
+}
+.row1 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.row1{
+    padding: 10px 10px 10px 10px ;
+}
