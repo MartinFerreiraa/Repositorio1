@@ -1,0 +1,10 @@
+@import"../base/variables.scss";
+.section__menu1{
+    font-size: map-get($tamaño , chico );
+}
+.section__menu2{
+    font-size: map-get($tamaño , chico );
+}
+.section__ubicacion1 h2{
+   font-size: map-get($tamaño , mediano );
+}

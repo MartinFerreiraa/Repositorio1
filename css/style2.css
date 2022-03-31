@@ -1,39 +1,134 @@
+.main__menu {
+  background-image: url(../pic/menu...jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.main__menu {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.main__menu {
+  background-image: url(../pic/menu...jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.main__menu {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
 body {
-  background-color: black;
+  background-color: #d3c9c9;
   padding: 0px;
   margin: 0px;
 }
 
-.footer {
-  border: 10px solid;
+.main__menu {
+  background-image: url(../pic/menu...jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.main__menu {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.main__menu {
+  background-image: url(../pic/menu...jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.main__menu {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
 }
 
 main {
-  font-size: 10px;
+  border: 5px solid rgba(209, 161, 3, 0.63);
 }
 
-.div__main {
+.main__index {
   display: flex;
-  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.div__texto {
-  color: antiquewhite;
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
+.main__menu {
+  color: #b3ff00;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.row2 {
-  width: auto;
-  height: auto;
+.h1__index {
+  font-size: 30px;
 }
 
-.row1 h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.p__index {
+  font-size: 14px;
 }
 
-.row1 {
-  padding: 10px 10px 10px 10px;
+.main__menu {
+  background-image: url(../pic/menu...jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.main__menu {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.main__menu {
+  background-image: url(../pic/menu...jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.main__menu {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.section__menu1 {
+  font-size: 14px;
+}
+
+.section__menu2 {
+  font-size: 14px;
+}
+
+.section__ubicacion1 h2 {
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=style2.css.map */

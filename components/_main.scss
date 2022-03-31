@@ -1,24 +1,21 @@
 @import"../base/variables.scss";
 main{
-    font-size: $font-size;
-}
-.div__main{
+    border: $borde
+    
 
-    display: flex;
-    padding: 10px;
+} 
+.main__index{
+     @include posicion(flex, space-around, center);
+ }
+ .main__menu{
+     color:$colorletra;
+     @extend %imagen__fondo;
+     @extend %pading;
+     @include posicion(flex, space-around, center);
 }
-.div__texto{
-    color: antiquewhite;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+.h1__index{
+    font-size: map-get($tamaño, mediano );
 }
-.row2{
-    width: auto;
-    height: auto;
-}
-.row1 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.row1{
-    padding: 10px 10px 10px 10px ;
+.p__index{
+    font-size: map-get($tamaño , chico );
 }
