@@ -2,17 +2,7 @@
 //VARIABLES//
 $borde: 5px solid rgba(209, 161, 3, 0.63);
 $color-fondo: rgb(211, 201, 201);
-$colorletra: rgb(179, 255, 0);
 
-//EXTEND//
-%imagen__fondo{
-    
-    background-image: url(../pic/menu...jpg);
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-size: cover;
-     background-position: center center;
-}
 %pading {
     padding-left: 10px;
     padding-top: 10px;
@@ -32,4 +22,5 @@ $tamaño:(
     chico: 14px,
     mediano: 30px,
     grande: 70px,
-)
+);
+

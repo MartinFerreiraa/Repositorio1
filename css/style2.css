@@ -1,27 +1,11 @@
-.main__menu {
-  background-image: url(../pic/menu...jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-}
-
-.main__menu {
+.main__reserva, .main__menu, .main__index div, .main__evento {
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 10px;
 }
 
-.main__menu {
-  background-image: url(../pic/menu...jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-}
-
-.main__menu {
+.main__reserva, .main__menu, .main__index div, .main__evento {
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -34,30 +18,14 @@ body {
   margin: 0px;
 }
 
-.main__menu {
-  background-image: url(../pic/menu...jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-}
-
-.main__menu {
+.main__reserva, .main__menu, .main__index div, .main__evento {
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 10px;
 }
 
-.main__menu {
-  background-image: url(../pic/menu...jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-}
-
-.main__menu {
+.main__reserva, .main__menu, .main__index div, .main__evento {
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -68,6 +36,12 @@ main {
   border: 5px solid rgba(209, 161, 3, 0.63);
 }
 
+.main__evento {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .main__index {
   display: flex;
   justify-content: space-around;
@@ -75,7 +49,24 @@ main {
 }
 
 .main__menu {
-  color: #b3ff00;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main__reserva btn :last-child {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+}
+
+.main__reserva__foto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main__ubicacion__section1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -89,30 +80,14 @@ main {
   font-size: 14px;
 }
 
-.main__menu {
-  background-image: url(../pic/menu...jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-}
-
-.main__menu {
+.main__evento, .main__index div, .main__menu, .main__reserva {
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 10px;
 }
 
-.main__menu {
-  background-image: url(../pic/menu...jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-}
-
-.main__menu {
+.main__evento, .main__index div, .main__menu, .main__reserva {
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px;

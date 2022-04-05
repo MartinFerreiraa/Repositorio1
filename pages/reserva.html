@@ -41,31 +41,32 @@
   </nav>
   <main class="main__reserva">
     <section>
-      <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-      <input type="email" class="form-control control__nuevo" id="exampleFormControlInput1" >
-    </section>
-    <section>
-      <select class="form-select control__nuevo pading" aria-label="Default select example">
-        <option selected>Lugares</option>
-        <option value="1">Uno</option>
-        <option value="2">Dos</option>
-        <option value="3">Tres</option>
-        <option value="4">Cuatro</option>
-        <option value="5">5+</option>
-      </select>
-    </section>
-    <section>
-      <label for="inputPassword5" class="form-label">Telefono</label>
-      <input type="password" id="inputPassword5" class="form-control control__nuevo" aria-describedby="passwordHelpBlock">
-    </section>
-    <section>    
-      <div class="d-grid gap-2 col-6 botones">
-        <button class="btn btn-primary" type="button">Aceptar</button>
-        <button class="btn btn-primary" type="button">Cancelar</button>
+      <legend>Reserve su cita con nosotros</legend>
+      <div class="col-12">
+        <label class="col-2" for="firstName">Nombre</label>
+        <input class="col-8" type="text" id="firstname "name"firstname" title="Ingrese su nombre." > 
+      </div>
+      <div class="col-12">
+        <label class="col-2" for="lastName">Apellido</label>
+        <input class="col-8" type="text" id="lastname "name"lastname" title="Ingrese su apellido." > 
+      </div>
+      <div class="col-12">
+        <label class="col-2" for="cantidad">Cantidad</label>
+        <input class="col-2" type="number" id="cantidad "name"cantidad" min="1" max="12" title="Ingrese cantidad ." > 
+      </div>
+      <div class="col-12">
+        <label class="col-2" for="phoneNumber">Cel</label>
+        <input class="col-4" type="tel" id="telefono" name"telefono" title="Ingrese su cel." > 
+      </div>
+      <div class=" btn col-12">
+        <input class="btn-send" type="reset" value="Borrar">
+        <input class="btn-send" type="submit" value="Enviar">
       </div>
     </section>  
     <section>
-      <img class="main__reserva__foto" src="../pic/restaurante2.jpg" alt="">
+      <div class="main__reserva__foto">
+        <img src="../pic/restaurante2.jpg" alt="">
+      </div>
     </section>    
   </main>   
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">

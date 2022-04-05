@@ -1,20 +1,40 @@
 @import"../base/variables.scss";
 main{
-    border: $borde
-    
-
+    border: $borde    
 } 
-.main__index{
+.main__evento{
+    @include posicion(flex,space-around,center);
+    @extend %pading;
+}
+.main__index {  
      @include posicion(flex, space-around, center);
  }
- .main__menu{
-     color:$colorletra;
-     @extend %imagen__fondo;
+ .main__index div{
+    @extend %pading;
+ }
+ 
+ .main__menu{     
      @extend %pading;
      @include posicion(flex, space-around, center);
 }
+.main__reserva{
+   
+    @extend %pading;
+}
+.main__reserva btn{
+    :last-child{
+        @include posicion(flex,row,center)
+    }    
+}
+.main__reserva__foto {
+    @include posicion(flex, space-around, center);
+}
+.main__ubicacion__section1{
+    @include posicion(flex,space-around,center)
+}
 .h1__index{
     font-size: map-get($tamaño, mediano );
+    
 }
 .p__index{
     font-size: map-get($tamaño , chico );
