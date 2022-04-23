@@ -1,39 +1,7 @@
-.main__reserva, .main__menu, .main__index div, .main__evento {
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-}
-
-.main__reserva, .main__menu, .main__index div, .main__evento {
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-}
-
 body {
   background-color: #d3c9c9;
   padding: 0px;
   margin: 0px;
-}
-
-.main__reserva, .main__menu, .main__index div, .main__evento {
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-}
-
-.main__reserva, .main__menu, .main__index div, .main__evento {
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-}
-
-main {
-  border: 5px solid rgba(209, 161, 3, 0.63);
 }
 
 .main__evento {
@@ -80,20 +48,37 @@ main {
   font-size: 14px;
 }
 
-.main__evento, .main__index div, .main__menu, .main__reserva {
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-}
+@media (max-width: 578px) {
+  .main__reserva__foto {
+    display: none;
+  }
 
-.main__evento, .main__index div, .main__menu, .main__reserva {
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-}
+  .main__youtube {
+    display: none;
+  }
 
+  .main__menu {
+    display: inline-table;
+  }
+}
+@media (max-width: 1342px) {
+  .main__evento {
+    display: inline-table;
+  }
+}
+@media (max-width: 702px) {
+  .main__evento {
+    display: inline-table;
+  }
+
+  .main__section__eventos1 img {
+    display: none;
+  }
+
+  .main__section__eventos2 img {
+    display: none;
+  }
+}
 .section__menu1 {
   font-size: 14px;
 }
@@ -104,6 +89,12 @@ main {
 
 .section__ubicacion1 h2 {
   font-size: 30px;
+}
+
+.section__youtube {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style2.css.map */

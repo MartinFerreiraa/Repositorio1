@@ -8,3 +8,7 @@
 .section__ubicacion1 h2{
    font-size: map-get($tamaño , mediano );
 }
+.section__youtube{
+     @include posicion(flex, space-around, center);
+}
+
