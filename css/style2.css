@@ -16,6 +16,10 @@ body {
   align-items: center;
 }
 
+.main__evento section {
+  align-items: center;
+}
+
 .main__menu {
   display: flex;
   justify-content: space-around;

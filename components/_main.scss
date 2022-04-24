@@ -8,6 +8,9 @@
      @include posicion(flex,space-around , center);
  }
  
+ .main__evento section{
+     align-items: center;
+ }
  
  .main__menu{     
     
@@ -36,6 +39,7 @@
 @media (max-width:578px) {
     .main__reserva__foto{
        display: none;
+       
     }
     .main__youtube{
         display: none;
